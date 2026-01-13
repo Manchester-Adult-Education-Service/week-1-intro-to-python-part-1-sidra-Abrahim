@@ -122,8 +122,9 @@ print("\n-------------------------------------------\n"
 # next_year = age + 1
 
 # Write your code below:
-
-
+num = int(input("Enter a number\n"))
+square = num*num
+print (square)
 # Extension 2: Score Tracker
 # -------------------------------------------
 print("\n-------------------------------------------\n"
@@ -139,8 +140,13 @@ print("\n-------------------------------------------\n"
 # points = points + 5
 
 # Write your code below:
-
-
+score = 0
+answer = int(input("What is 100 * 100?\n"))
+if answer == 10000:
+    score += 10
+    print(f"Well done! Your score is {score}")
+else:
+    print("You lose!")
 # Extension 3: The Length Checker
 # -------------------------------------------
 print("\n-------------------------------------------\n"
@@ -156,8 +162,11 @@ print("\n-------------------------------------------\n"
 # size = len(animal)
 
 # Write your code below:
+word = input("Please Enter a word\n")
+length = len(word)
 
-
+if length > 5:
+    print("That's a long word!")
 # -------------------------------------------
 # SAVE YOUR EXTENSIONS
 # -------------------------------------------
@@ -192,7 +201,14 @@ print("\n-------------------------------------------\n"
 #     print("What animal is that?")
 
 # Write your code below:
-
+name = input("What is your name? ")
+feel = input("How are you feeling today? ")
+if feel == "happy":
+    print("That's great to hear!")
+elif  feel == "sad":
+    print("I'm sorry, I hope your day gets better.")
+else:
+    print("I see, thanks for sharing!")     
 
 # -------------------------------------------
 # FINAL SUBMISSION
