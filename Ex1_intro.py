@@ -35,7 +35,9 @@ print("-------------------------------------------\n"
 # print("I love " + food)
 
 # Write your code below:
-
+print("Welcome to Python!")
+user_name = 'Sidra Abrahim'
+print(f"Hello {user_name}")
 
 # -------------------------------------------
 # Task 2: Basic Arithmetic (The Calculator)
@@ -56,7 +58,10 @@ print("\n-------------------------------------------\n"
 # fruit_bowl = apples + oranges
 
 # Write your code below:
-
+num1 = 10
+num2 = 5
+total = num1 + num2
+print(f"{num1} + {num2} = {total}")
 
 # -------------------------------------------
 # Task 3: User Input and IF Statements
@@ -79,8 +84,12 @@ print("\n-------------------------------------------\n"
 #     print("Cool choice.")
 
 # Write your code below:
+password = input("what is your password?\n")
 
-
+if password == "Python123":
+    print("Access Granted")
+else:
+    print("Access Denied")
 # -------------------------------------------
 # CHECKPOINT & SAVE
 # -------------------------------------------
